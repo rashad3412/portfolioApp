@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+
+body {
+  width: 50%;
+  height: 1000px;
+  margin: 0 auto;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+h2 {
+  color: #0f7d6d;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  font-family: sans-serif;
+  border-bottom: 1px dashed #0f7d6d;
+  margin-top: 10px;
+  /* border: black solid; */
+}
+
+.links {
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 1px;
+  border: solid #0f7d6d 1px;
+  border-radius: 15px;
+}
+
+.links:hover {
+  background-color: #0f7d6d;
+  color: #ffff;
+}
+
+.hero_section {
+  display: flex;
+  justify-content: center;
+}
+.portfolio_img {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  width: 650px;
+  right: 50px;
+  /* border: solid black 1px; */
+  padding-right: 10px;
+  margin: 30px;
+}
+
+.adjust_portfolio_img {
+  border-radius: 50%;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+  gap: 15px;
+  cursor: pointer;
+  /* border: black solid 1px; */
+}
+
+@media (max-width: 1068px) {
+  .nav {
+    display: flex;
+    /* background-color: pink; */
+    flex-wrap: wrap;
+    justify-content: center;
+    border: none;
+  }
+}
+@media (max-width: 873px) {
+  .links {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 873px) {
+  .nav {
+    display: inline;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .nav_heading {
+    display: none;
+  }
+}
+
+.logo1 {
+  margin-left: 10px;
+  color: white;
+  border: solid white 1px;
+  border-radius: 10px;
+}
+.logo2 {
+  margin-left: 10px;
+  color: white;
+  border: solid white 1px;
+  border-radius: 10px;
+
+  /* border: solid black 1px; */
+}
+.logo3 {
+  margin-left: 10px;
+  color: white;
+  border: solid white 1px;
+  border-radius: 10px;
+  margin-left: 10px;
+  /* border: solid black 1px; */
+}
+.logo4 {
+  margin-left: 10px;
+  color: white;
+  border: solid white 1px;
+  border-radius: 10px;
+  margin-left: 10px;
+  /* border: solid black 1px; */
+}
+
+.bar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  width: 450px;
+  height: 3px;
+  gap: 10px;
+  background-color: #e45404;
+  border-radius: 10px;
+  /* border: black solid 1px; */
+}
+
+.bar2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  width: 450px;
+  height: 3px;
+  gap: 10px;
+  background-color: #0474bc;
+  border-radius: 10px;
+  /* border: black solid 1px; */
+}
+
+.bar3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  width: 450px;
+  height: 3px;
+  gap: 10px;
+  background-color: #dcb404;
+  border-radius: 10px;
+  /* border: black solid 1px; */
+}
+
+.bar4 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  width: 450px;
+  height: 3px;
+  gap: 10px;
+  background-color: #6ca4e4;
+  border-radius: 10px;
+  /* border: black solid 1px; */
+}
+
+.about_me_section {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px dashed #0f7d6d;
+}
+
+.align_about_me {
+  display: flex;
+  justify-content: center;
+}
+
+.about_me_card {
+  color: white;
+  width: 650px;
+  height: 250px;
+  margin: 15px;
+  padding: 5px;
+  background-color: #217f53;
+  box-shadow: 5px 5px 5px #e0bb76;
+  border: white solid 0.5px;
+  border-radius: 10px;
+}
+
+.about_card_align {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  float: left;
+  margin-right: 25px;
+  border-radius: 50%;
+}
+
+.about_p {
+  display: flex;
+  justify-content: flex-start;
+  text-indent: 5px;
+  text-wrap: wrap;
+  font-family: sans-serif;
+  width: 600px;
+
+  /* border: solid black; */
+}
+
+.experince_section {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px dashed #0f7d6d;
+}
+.experince_card_align {
+  display: flex;
+  margin: 15px;
+  justify-content: space-around;
+}
+.experince_card {
+  display: flex;
+  justify-content: center;
+  width: 315px;
+  height: 300px;
+  background-color: #e9bf49;
+  border-radius: 10px;
+  border: solid #217f53 1px;
+  box-shadow: 5px 5px 5px #b9b9b9;
+}
+
+li {
+  font-family: sans-serif;
+  color: white;
+}
+
+.experince_card_2 {
+  display: flex;
+  justify-content: center;
+  width: 315px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: #df5a42;
+  border: solid #217f53 1px;
+  box-shadow: 5px 5px 5px #b9b9b9;
+}
+
+.float-text {
+  text-align: center;
+}
+.float-text2 {
+  text-align: center;
+}
+
+.float_img {
+  margin: 5px;
+  background-color: #b7b8bb;
+  border-radius: 10px;
+  border: solid white;
+}
+.float_img2 {
+  margin: 5px;
+  background-color: #b7b8bb;
+  border: solid white;
+  border-radius: 10px;
+}
+
+.project_section {
+  display: flex;
+  justify-content: flex-start;
+  /* border: solid black 1px; */
+  border-bottom: 1px dashed #0f7d6d;
+}
+
+.project_boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+  gap: 20px;
+  /* border: solid black 1px; */
+}
+.project_card {
+  width: 600px;
+  height: 200px;
+  font-family: sans-serif;
+  color: white;
+  border-radius: 15px;
+  background-color: #355ea2;
+  border: solid yellow 1px;
+  box-shadow: 5px 5px 5px #c9e4e0;
+}
+.inside_project_card {
+  float: left;
+  width: 200px;
+  height: 175px;
+  margin: 7px;
+  border-radius: 10px;
+}
+.project_card_2 {
+  width: 600px;
+  height: 200px;
+  color: white;
+  font-family: sans-serif;
+  border-radius: 10px;
+  background-color: #c44084;
+  border: solid #355ea2 1px;
+  box-shadow: 5px 5px 5px #c2eccb;
+}
+.inside_project_card_2 {
+  float: left;
+  width: 200px;
+  height: 175px;
+  margin: 7px;
+  border-radius: 10px;
+}
+
+.project_pic {
+  border: white;
+  border-radius: 10px;
+}
+
+.site_a {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: underline;
+  /* border: solid black 1px; */
+  cursor: pointer;
+}
+
+.contact {
+  border-bottom: #0f7d6d dashed;
+}
+
+footer {
+  height: 100px;
+}

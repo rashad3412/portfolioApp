@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio App</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaQueries.css" />
+  <body>
+    <header>
+      <nav class="nav">
+        <div>
+          <h2 class="nav_heading">Portfolio</h2>
+        </div>
+        <section class="nav_links">
+          <a class="links btn1" href="#about">About</a>
+          <a class="links btn2" href="#experince">Experince</a>
+          <a class="links btn3" href="#projects">Projects</a>
+          <a class="links btn4" href="#contact">Contact</a>
+        </section>
+      </nav>
+    </header>
+    <section class="hero_section">
+      <div class="portfolio_img">
+        <img
+          class="adjust_portfolio_img"
+          src="assets/portfolioPic.jpg"
+          alt="portfolioPic"
+          width="260px"
+          height="260px"
+        />
+        <div class="logo">
+          <div class="logo1">
+            <div class="bar">
+              <img src="assets/htmlLogo.png" alt="logo1" width="40px" />
+              HTML
+            </div>
+          </div>
+          <div class="logo2">
+            <div class="bar2">
+              <img src="assets/cssLogo.png" alt="logo2" width="40px" />
+              CSS
+            </div>
+          </div>
+          <div class="logo3">
+            <div class="bar3">
+              <img src="assets/javascriptLogo.png" alt="logo3" width="40px" />
+              Javascript
+            </div>
+          </div>
+          <div class="logo4">
+            <div class="bar4">
+              <img src="assets/reactLogo.png" alt="logo4" width="40px" />
+              React
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About me Section -->
+      <div class="about_me_section">
+        <h2 id="about">About Me</h2>
+      </div>
+      <section class="align_about_me">
+        <div class="about_me_card">
+          <p class="about_p">
+            <img
+              class="about_card_align"
+              src="assets/mountainPic.jpg"
+              alt="portfolioPic"
+              width="200px"
+              height="200px"
+            />
+            My name is Rashad Edwards. I have a skill set that focuses on
+            Html, Css, Javascript, and React. I recently graduated from a
+            Fullstack Academy’s bootcamp. Prior to the bootcamp I was
+            self-taught and self-motivated. Over 200 hours of study and practice
+            lead me to Fullstack Academy. I understand that learning on my own
+            is key to being a great developer, but having other minds and
+            teachers help me, in my journey was a surplus in knowledge. The key
+            to me is consistency, effort, growth and dedication.
+          </p>
+        </div>
+      </section>
+      <!-- Experince Section -->
+      <div class="experince_section">
+        <h2 id="experince">Experince</h2>
+      </div>
+      <section class="experince_card_align">
+        <div class="experince_card">
+          <article class="float-text">
+            <img
+              class="float_img"
+              src="assets/computer.jpg"
+              alt=""
+              width="300px"
+              height="200px"
+            />
+            <p>
+              <li>Frontend Developer</li>
+              <li>2023 FullStack Academy Grad</li>
+            </p>
+          </article>
+        </div>
+        <div class="experince_card_2">
+          <article class="float-text2">
+            <img
+              class="float_img2"
+              src="assets/clock.jpg"
+              alt=""
+              width="300px"
+              height="200px"
+            />
+            <p>
+              <li>28 Weeks Program</li>
+              <li>20-40 Weekly Workloads</li>
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Project Section -->
+      <div class="project_section">
+        <h2 id="projects">Projects</h2>
+      </div>
+      <div class="project_boxes">
+        <div class="project_card">
+          <div class="inside_project_card">
+            <img
+              src="assets/artsyemotions.png"
+              alt=""
+              width="200px"
+              height="175px"
+              class="project_pic"
+            />
+          </div>
+          <p>
+            Artsy Emotions is an fun simple app that is built using HTML, CSS,
+            and Javascript. When a user clicks on a button a modal pops up with
+            information about emotions. Check out repo below for source code.
+            <div>
+                <a class="site_a" href="https://github.com/rashad3412/emotionsApp"
+                  >https://github.com/rashad3412/emotionsApp</a
+                >
+            </div>
+          </p>
+        </div>
+        <div class="project_card_2">
+          <div class="inside_project_card_2">
+            <img
+              src="assets/storeClone.png"
+              alt=""
+              width="200px"
+              height="175px"
+              class="project_pic"
+            />
+          </div>
+          <p>
+            Store clone is an app built using HTML, CSS, Javascript, and React. I used  an api with store information to build this app. This app is for users to login in and log out in an account, modify shopping orders, add orders to a cart, and much more. Check out the repo below for source code.
+            <div>
+                <a class="site_a" href="https://github.com/rashad3412/storeClone">
+                  https://github.com/rashad3412/storeClone
+                </a>
+            </div>
+          </p>
+        </div>
+      </div>
+      <!-- Contact Section -->
+      <div>
+          <h2  id="contact" class="contact">Contact</h2>
+      </div>
+      <div>Email: Rashad3412@gmail.com</div>
+      <div><a href="www.linkedin.com/in/rashad-edwards-software-developer">www.linkedin.com/in/rashad-edwards-software-developer</a></div>
+    </div>
+    <footer class="footer"></footer>
+  </body>
+  <script src="script.js"></script>
+</html>
